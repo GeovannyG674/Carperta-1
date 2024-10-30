@@ -1,0 +1,1 @@
+import network # Initialize the network interface wlan = network.WLAN(network.STA_IF) # Activate the WLAN Interface wlan.active(True) # Check if the interface is active (connected) if wlan.active(): print("Wi-Fi is not active.")
